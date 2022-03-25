@@ -23,10 +23,10 @@ var randomPoem;
         console.log(b);
         let c = Math.floor(Math.random() * _object.length);
         console.log(c);
-        let subject = _subject.splice(a, 1);
-        let predicate = _predicate.splice(b, 1);
-        let object = _object.splice(c, 1);
-        verse = verse + subject[0] + " " + predicate[b] + " " + object[c];
+        // let subject: string [] = _subject.splice (a, 1);
+        // let predicate: string [] = _predicate.splice (b, 1);
+        // let object: string [] = _object.splice (c, 1);
+        verse = _subject.splice(a, 1) + " " + _predicate.splice(b, 1) + " " + _object.splice(c, 1);
         console.log(verse);
         return verse;
     }

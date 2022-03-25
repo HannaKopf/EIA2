@@ -29,11 +29,11 @@ namespace randomPoem {
         let c: number = Math.floor (Math.random() * _object.length);
         console.log (c);
 
-        let subject: string [] = _subject.splice (a, 1);
-        let predicate: string [] = _predicate.splice (b, 1);
-        let object: string [] = _object.splice (c, 1);
+        // let subject: string [] = _subject.splice (a, 1);
+        // let predicate: string [] = _predicate.splice (b, 1);
+        // let object: string [] = _object.splice (c, 1);
 
-        verse = verse + subject [0] + " " + predicate [b] + " " + object [c];
+        verse = _subject.splice (a, 1) + " " + _predicate.splice (b, 1) + " " + _object.splice (c, 1);
         console.log (verse);
         return verse;
     }
