@@ -1,0 +1,25 @@
+#div0 {
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    left: 30px;
+
+    border-style: solid;
+    border-color: brown;
+}
+
+#div1 {
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    right: 30px;
+
+    border-style: solid;
+    border-color: brown;
+}
+
+span {
+    position: fixed;
+    padding-left: 10px;
+    padding-top: 10px;
+}
